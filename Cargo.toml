@@ -1,0 +1,17 @@
+[package]
+name = "barrk"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# https://github.com/bevyengine/bevy/blob/main/docs/cargo_features.md
+bevy = { version = "0.7", features = ["animation", "render", "png", "x11"]}
+bevy-inspector-egui = "0.11.0"
+rand = "0.8.5"
+
+[profile.dev]
+panic = "unwind"
+
+[profile.release]
+strip = "debuginfo"
+panic = "abort"

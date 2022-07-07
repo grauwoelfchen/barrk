@@ -1,0 +1,9 @@
+/dst/debug
+/dst/release
+/dst/*.json
+
+/src/asset/font/*
+!/src/asset/font/.gitignore
+
+/assets
+/target
