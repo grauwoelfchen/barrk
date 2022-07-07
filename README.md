@@ -1,6 +1,6 @@
 # Barrk
 
-![Screenshot](dst/assets/img/barrk.png?raw=true "Barrk")
+![Screenshot](src/asset/img/barrk.png?raw=true "Barrk")
 
 
 ## License
